@@ -1,0 +1,48 @@
+.about{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.area{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.area2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.area .text{
+    flex: 1;
+    padding: 0px 50px;
+    line-height: 20px
+}
+
+.area .background{
+    background-color: red;
+    flex: 1
+}
+
+.background{
+    background-image: url(https://images.newscientist.com/wp-content/uploads/2022/04/05152010/SEI_97255351.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+ 
+.area2 .background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPq8JABcA_Rm5lOSTg0NOuM_n1V2DU-8Ua9A&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+ 
+
+
+

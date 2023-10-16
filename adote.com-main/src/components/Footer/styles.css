@@ -1,0 +1,99 @@
+footer{
+    padding: 26px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #972143; 
+}
+
+.site_mapa, .redes_sociais, .contacts{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.site_mapa ul, .contacts ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.lista > a, .lista > li, .newsletter > p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFF;
+    line-height: 1.5;
+    
+}
+
+.lista a:hover, .lista li:hover{
+    color: #E5E059
+}
+
+.contacts ul li{
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: flex;
+    
+}
+
+.newsletter p {
+    margin-bottom: 18px;
+}
+
+.redes_sociais{
+    flex-direction: row;
+}
+
+
+.newsletter div input {
+    height: 33px;
+    width: 33vw;
+    max-width: 245px;
+    border-top-left-radius: 3px;
+    border-radius: 3px;
+    border: 2px solid white;
+    outline: none;
+}
+
+.newsletter div a {
+    background-color: #555555;
+    text-decoration: none;
+    padding: 9px 13px;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    margin-left: -2px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: absolute;
+}
+
+.newsletter div a:hover{
+    background-color: #343633;
+    transition: all ease .5s;
+}
+
+.redes_sociais > * {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.tittle{
+    font-family: "Open Sans","Helvetica","Arial",sans-serif;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1023px) {
+    footer{
+        display: none;
+    }
+}

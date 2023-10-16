@@ -1,0 +1,27 @@
+.nameArea{
+    display: flex;
+}
+
+.nameArea input{
+    margin: 5px;
+    width: 76px;
+    margin-bottom: 20px;
+}
+
+.inputEmail, .password{
+    margin-left: 7px;
+}
+
+button{
+    background-color: #972143;
+    color: white;
+    cursor: pointer;
+}
+
+.box-btn-cadastro{
+    margin-left: 10px;
+}
+
+.login{
+    padding-right: 10px;
+}

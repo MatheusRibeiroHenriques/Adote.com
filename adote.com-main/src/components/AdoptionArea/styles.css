@@ -1,0 +1,25 @@
+
+.body{
+    margin: 50px;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    min-width: 250px;
+}
+
+.main_text h1{
+    color: #972143;
+}
+
+.main_text p{
+    color: #555555;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
